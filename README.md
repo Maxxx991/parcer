@@ -1,2 +1,1 @@
-# parcer
-With browser automation library - Selenium
+Парсер для определения самого дешевого автомобиля Lada в кредит на сайте auto.ru
