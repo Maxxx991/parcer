@@ -22,7 +22,6 @@ time.sleep(5)
 check_box = browser.find_element(By.NAME, "on_credit").click()
 show_suggestions = browser.find_element(By.CLASS_NAME, "ButtonWithLoader__content").click()
 
-# Ждем загрузки страницы
 time.sleep(5)
 
 # Находим названия автомобилей и их цены
