@@ -11,7 +11,6 @@ browser = webdriver.Edge(service=s)
 browser.maximize_window()
 browser.get("http://auto.ru")
 
-# Находим и нажимаем кнопку LADA
 search_button_LADA = browser.find_element(By.CSS_SELECTOR, '[title="LADA (ВАЗ)"]')
 search_button_LADA.click()
 
